@@ -1,131 +1,30 @@
-{                                                                                                                                      
-    "workbench.colorCustomizations": {                                                                                                 
-        "editor.background": "#01010A" // Ciemny szary dla tła edytora                                                                 
-    },                                                                                     
-    "editor.inlayHints.enabled": "off",                               
-    "editor.tokenColorCustomizations": {                                                                                               
-        "textMateRules": [          
-            {
-                "scope":"keyword.other.fn.rust",
-                "settings": {
-                    "foreground": "#ff5b5b" // Jaśniejszy różowy dla słów kluczowych
-                }
-            },                                                                                                   
-            {                                                                                                                          
-                "scope": "comment.line.double-slash.rust",                                                                             
-                "settings": {                                                                                                          
-                    "foreground": "#4B8B3B" // Ciemny zielony dla komentarzy                                                           
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "comment.block.documentation.rust",                                                                           
-                "settings": {                                                                                                          
-                    "foreground": "#6A9955" // Ciemny zielony dla dokumentacji                                                         
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "keyword.control.rust",                                                                                       
-                "settings": {                                                                                                          
-                    "foreground": "#FF69B4" // Jaśniejszy różowy dla słów kluczowych                                                   
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "keyword.operator.rust",                                                                                      
-                "settings": {                                                                                                          
-                    "foreground": "#FF6347" // Jaśniejszy łososiowy dla operatorów                                                     
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "storage.type.rust",                                                                                          
-                "settings": {                                                                                                          
-                    "foreground": "#ff9100" // Beżowy dla typów danych                                                                 
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "entity.name.function.rust",                                                                                  
-                "settings": {                                                                                                          
-                    "foreground": "#03c574" // Jaskrawo czerwony dla nazw funkcji                                                      
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "entity.name.method.rust",                                                                                    
-                "settings": {                                                                                                          
-                    "foreground": "#b10000" // Jaskrawo czerwony dla nazw metod                                                        
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "variable.other.rust",                                                                                        
-                "settings": {                                                                                                          
-                    "foreground": "#32CD32" // Jasny zielony dla zmiennych                                                             
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "variable.language.rust",                                                                                     
-                "settings": {                                                                                                          
-                    "foreground": "#32CD32" // Jasny zielony dla zmiennych językowych                                                  
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "variable.constant.rust",                                                                                     
-                "settings": {                                                                                                          
-                    "foreground": "#FF3211" // Łososiowy dla stałych                                                                   
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "constant.numeric.rust",                                                                                      
-                "settings": {                                                                                                          
-                    "foreground": "#40E0D0" // Turkusowy dla liczb                                                                     
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "constant.character.rust",                                                                                    
-                "settings": {                                                                                                          
-                    "foreground": "#96aca9" // Turkusowy dla znaków                                                                    
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "constant.string.rust",                                                                                       
-                "settings": {                                                                                                          
-                    "foreground": "#40E0D0" // Turkusowy dla ciągów znaków                                                             
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "entity.name.struct.rust",                                                                                    
-                "settings": {                                                                                                          
-                    "foreground": "#FF00FF" // Fioletowy dla struktur                                                                  
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "entity.name.module.rust",                                                                                    
-                "settings": {                                                                                                          
-                    "foreground": "#FF00FF" // Fioletowy dla modułów                                                                   
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "entity.name.macro.rust",                                                                                     
-                "settings": {                                                                                                          
-                    "foreground": "#FF6347" // Jaśniejszy łososiowy dla makr                                                           
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "meta.attribute.rust",                                                                                        
-                "settings": {                                                                                                          
-                    "foreground": "#f1a128" // Beżowy dla atrybutów                                                                    
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "entity.name.type.rust",                                                                                      
-                "settings": {                                                                                                          
-                    "foreground": "#00FF7F" // Seledynowy dla typów                                                                    
-                }                                                                                                                      
-            },                                                                                                                         
-            {                                                                                                                          
-                "scope": "entity.name.lifetime.rust",                                                                                  
-                "settings": {                                                                                                          
-                    "foreground": "#00FF7F" // Seledynowy dla czasów życia                                                             
-                }                                                                                                                      
-            }                                                                                                                          
-        ]                                                                                                                              
-    }                                                                                                                                  
-}                                                                                                                                      
-     
+{
+    "editor.semanticTokenColorCustomizations": {
+    "enabled": true,
+    "rules": {
+        "variable": "#73ff00",          // Zmienne - wyrazisty, ale ciepły żółty
+        //"function": "#a205c2fb",          // Funkcje - złoty, silny akcent
+        "comment": "#217021",           // Komentarze - zieleń, subtelna równowaga
+        "keyword": "#d47800",           // Słowa kluczowe - pomarańczowoczerwony, dynamiczny
+       // "string": "#9c5900",            // Łańcuchy znaków - ciepły pomidorowy
+        "number": "#32CD32",            // Liczby - świeży zielony limonkowy
+        //"type": "#1effbc",              // Typy - stonowany niebieski, lekko chłodny
+        //"struct": "#4682B4",            // Struktury - stalowy niebieski, stabilność
+        //"enum": "#6A5ACD",              // Enumy - łagodny fiolet, subtelna elegancja
+        //"trait": "#87CEEB",             // Traity - jasny niebieski, czystość i przejrzystość
+        "macro": "#d363ff",             // Makra - pomarańczowy, silny, ale zrównoważony
+        "parameter": "#00ffbf",         // Parametry funkcji - blady żółty, delikatny akcent
+        //"property": "#DAA520",          // Właściwości - złoty, podkreślający stabilność
+        "struct": "#f30049"
+        //"namespace": "#4682B4",         // Przestrzenie nazw - stalowy niebieski, jak struktury
+        //"operator": "#808080",          // Operatory - neutralny szary, bez rozpraszania uwagi
+        //"variable.constant": "#B8860B", // Stałe - ciemnozłoty, nieco bardziej wyrazisty
+        //"variable.readonly": "#FFA07A"  // Zmienne tylko do odczytu - łososiowy, delikatny
+    },
+    
+},
+"workbench.colorCustomizations": {
+    
+    "editor.background": "#000000"    // Czarny kolor tła
+},
+}
