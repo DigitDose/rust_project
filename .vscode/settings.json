@@ -1,12 +1,12 @@
 {
-    "editor.semanticTokenColorCustomizations": {
+     "editor.semanticTokenColorCustomizations": {
     "enabled": true,
     "rules": {
-        "variable": "#73ff00",          // Zmienne - wyrazisty, ale ciepły żółty
+        "variable": "#3fff3f",          // Zmienne - wyrazisty, ale ciepły żółty
         //"function": "#a205c2fb",          // Funkcje - złoty, silny akcent
         "comment": "#217021",           // Komentarze - zieleń, subtelna równowaga
-        "keyword": "#d47800",           // Słowa kluczowe - pomarańczowoczerwony, dynamiczny
-       // "string": "#9c5900",            // Łańcuchy znaków - ciepły pomidorowy
+        "keyword": "#ff3815",           // Słowa kluczowe - pomarańczowoczerwony, dynamiczny
+        "string": "#ffaade",            // Łańcuchy znaków - ciepły pomidorowy
         "number": "#32CD32",            // Liczby - świeży zielony limonkowy
         //"type": "#1effbc",              // Typy - stonowany niebieski, lekko chłodny
         //"struct": "#4682B4",            // Struktury - stalowy niebieski, stabilność
@@ -23,8 +23,5 @@
     },
     
 },
-"workbench.colorCustomizations": {
-    
-    "editor.background": "#000000"    // Czarny kolor tła
-},
+
 }
